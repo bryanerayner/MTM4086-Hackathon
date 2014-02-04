@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Picture Polyfill</title>
+	<link rel="stylesheet" type="text/css" href="css/polyfill.css">
+</head>
+<body>
+	<span data-picture="" data-alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
+			<span data-src="images/small.jpg"></span>
+			<span data-src="images/medium.jpg" data-media="(min-width: 400px)"></span>
+			<span data-src="images/large.jpg" data-media="(min-width: 800px)"></span>
+			<span data-src="images/extralarge.jpg" data-media="(min-width: 1000px)"></span>
+
+			<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+			<noscript>&lt;img src="external/imgs/small.jpg" alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia"&gt;</noscript>
+		</span>
+
+	<script type="text/javascript" src = "js/picturefill.js"></script>
+</body>
+</html>

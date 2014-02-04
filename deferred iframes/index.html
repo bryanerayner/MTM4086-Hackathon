@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title>Animation Mixin</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<meta name = "robots" content = "noindex">
+</head>
+<body>
+	<h1>Test</h1>
+	<h1>Test</h1>
+	<h1>Test</h1>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type = "text/javascript">
+	if (!window.jQuery || !window.$)
+	{
+		document.write('<script type = "text/javascript" src = "js/jQuery.1.10.2.min.js"></script>');
+	}
+	</script>
+	<script type="text/javascript" >
+	$(document).ready(function(){
+		$("h1").on("click", function(){
+			$(this).toggleClass("slide");
+		});
+	});
+	</script>
+</body>
+</html>

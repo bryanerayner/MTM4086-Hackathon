@@ -1,0 +1,41 @@
+@-webkit-keyframes slide {
+  0% {
+    left: 0; }
+
+  100% {
+    left: 100%; } }
+@-moz-keyframes slide {
+  0% {
+    left: 0; }
+
+  100% {
+    left: 100%; } }
+@-o-keyframes slide {
+  0% {
+    left: 0; }
+
+  100% {
+    left: 100%; } }
+@keyframes slide {
+  0% {
+    left: 0; }
+
+  100% {
+    left: 100%; } }
+.slide {
+  -webkit-animation: slide 5s infinite;
+  -moz-animation: slide 5s infinite;
+  -o-animation: slide 5s infinite;
+  animation: slide 5s infinite;
+  position: absolute;
+  background: red;
+  width: 150px; }
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1; }
+
+  100% {
+    opacity: 0; } }
+
+/*# sourceMappingURL=styles.css.map */
