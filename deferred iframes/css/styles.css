@@ -25,7 +25,6 @@
 .slide {
   -webkit-animation: slide 5s infinite;
   -moz-animation: slide 5s infinite;
-  -o-animation: slide 5s infinite;
   animation: slide 5s infinite;
   position: absolute;
   background: red;

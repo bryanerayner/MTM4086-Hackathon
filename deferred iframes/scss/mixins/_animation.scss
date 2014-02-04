@@ -25,3 +25,12 @@
 		#{$prefix}animation: #{$value};
 	}		
 }
+
+@mixin prefix($property, $value, $prefixes:(-webkit-,-moz-,-o-,''))
+{
+	@each $prefix in $prefixes
+	{
+		#{$prefix}#{$property}: #{$value};
+	}
+	#{$property}: #{$value};
+}

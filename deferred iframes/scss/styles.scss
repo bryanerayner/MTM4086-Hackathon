@@ -15,7 +15,7 @@
 
 .slide
 	{
-	@include animation(slide 5s infinite);
+	@include prefix(animation, slide 5s infinite, (-webkit-,-moz-));
 	position: absolute;
 	background:red;width:150px;
 }
